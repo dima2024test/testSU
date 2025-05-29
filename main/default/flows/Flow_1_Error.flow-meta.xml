@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <description>Source:Create_Account,278,176|Target:null,0,0</description>
+        <name>h_2fc4474888e0f0ea0a20df19a79c26eb_PostLog</name>
+        <label>Log After: Create Account</label>
+        <locationX>176</locationX>
+        <locationY>1000</locationY>
+        <actionName>TritonFlow</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>category</name>
+            <value>
+                <stringValue>Flow</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>type</name>
+            <value>
+                <stringValue>test</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>area</name>
+            <value>
+                <stringValue>test</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>summary</name>
+            <value>
+                <stringValue>Log After: Create Account</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>details</name>
+            <value>
+                <stringValue>Executed: Log After: Create Account</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>interviewGUID</name>
+            <value>
+                <stringValue>{!$Flow.InterviewGuid}</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>flowApiName</name>
+            <value>
+                <stringValue>Flow_1_Error-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Record Create</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>level</name>
+            <value>
+                <stringValue>DEBUG</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>stacktrace</name>
+            <value>
+                <stringValue>{!h_7ccbb102f1bdacbaff2b3c10dceed3af_Pharos_Template}</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>fullStacktrace</name>
+            <value>
+                <stringValue>{!Pharos_Full_Stacktrace}</stringValue>
+            </value>
+        </inputParameters>
+        <outputParameters>
+            <assignToReference>Pharos_Full_Stacktrace</assignToReference>
+            <name>fullStacktrace</name>
+        </outputParameters>
+    </actionCalls>
+    <actionCalls>
+        <description>Source:Start,0,50|Target:Assignment_Id,158,176</description>
+        <name>h_3856076a2591b578c8f0a72b17aabbd8_PostPreLog</name>
+        <label>Log After: Start, Before: Assignment Id</label>
+        <locationX>113</locationX>
+        <locationY>400</locationY>
+        <actionName>TritonFlow</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>Assignment_Id</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>category</name>
+            <value>
+                <stringValue>Flow</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>type</name>
+            <value>
+                <stringValue>test</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>area</name>
+            <value>
+                <stringValue>test</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>summary</name>
+            <value>
+                <stringValue>Log After: Start, Before: Assignment Id</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>details</name>
+            <value>
+                <stringValue>Executed: Log After: Start, Before: Assignment Id</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>interviewGUID</name>
+            <value>
+                <stringValue>{!$Flow.InterviewGuid}</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>flowApiName</name>
+            <value>
+                <stringValue>Flow_1_Error-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Start</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>level</name>
+            <value>
+                <stringValue>INFO</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>stacktrace</name>
+            <value>
+                <stringValue>{!h_d0813efa856b4558e757f62cb60379e6_Pharos_Template}</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>fullStacktrace</name>
+            <value>
+                <stringValue>{!Pharos_Full_Stacktrace}</stringValue>
+            </value>
+        </inputParameters>
+        <outputParameters>
+            <assignToReference>Pharos_Full_Stacktrace</assignToReference>
+            <name>fullStacktrace</name>
+        </outputParameters>
+    </actionCalls>
+    <actionCalls>
+        <description>Source:Assignment_Id,158,176|Target:Create_Account,278,176</description>
+        <name>h_6468ea004f615f158ce346366b43e744_PostPreLog</name>
+        <label>Log After: Assignment Id, Before: Create Account</label>
+        <locationX>176</locationX>
+        <locationY>700</locationY>
+        <actionName>TritonFlow</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>Create_Account</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>category</name>
+            <value>
+                <stringValue>Flow</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>type</name>
+            <value>
+                <stringValue>test</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>area</name>
+            <value>
+                <stringValue>test</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>summary</name>
+            <value>
+                <stringValue>Log After: Assignment Id, Before: Create Account</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>details</name>
+            <value>
+                <stringValue>Executed: Log After: Assignment Id, Before: Create Account</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>interviewGUID</name>
+            <value>
+                <stringValue>{!$Flow.InterviewGuid}</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>flowApiName</name>
+            <value>
+                <stringValue>Flow_1_Error-1</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>operation</name>
+            <value>
+                <stringValue>Assignment</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>level</name>
+            <value>
+                <stringValue>FINER</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>stacktrace</name>
+            <value>
+                <stringValue>{!h_2806355c96650e1cf833effafbcbb4e8_Pharos_Template}</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>fullStacktrace</name>
+            <value>
+                <stringValue>{!Pharos_Full_Stacktrace}</stringValue>
+            </value>
+        </inputParameters>
+        <outputParameters>
+            <assignToReference>Pharos_Full_Stacktrace</assignToReference>
+            <name>fullStacktrace</name>
+        </outputParameters>
+    </actionCalls>
+    <apiVersion>53.0</apiVersion>
+    <assignments>
+        <name>Assignment_Id</name>
+        <label>Assignment Id</label>
+        <locationX>176</locationX>
+        <locationY>550</locationY>
+        <assignmentItems>
+            <assignToReference>account.Fax</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Flow #1</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>account.Id</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>h_6468ea004f615f158ce346366b43e744_PostPreLog</targetReference>
+        </connector>
+    </assignments>
+    <interviewLabel>Flow #1 Error {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Flow #1 Error</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Create_Account</name>
+        <label>Create Account</label>
+        <locationX>176</locationX>
+        <locationY>850</locationY>
+        <connector>
+            <targetReference>h_2fc4474888e0f0ea0a20df19a79c26eb_PostLog</targetReference>
+        </connector>
+        <inputReference>account</inputReference>
+    </recordCreates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>h_3856076a2591b578c8f0a72b17aabbd8_PostPreLog</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+    <textTemplates>
+        <description>Pharos Flow Template for Log After: Assignment Id, Before: Create Account</description>
+        <name>h_2806355c96650e1cf833effafbcbb4e8_Pharos_Template</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>&lt;p&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;ASSIGNMENT: &lt;/span&gt;Assignment Id&lt;br&gt;
+&lt;span&gt;account.Fax Assign Flow #1&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;account.Id Assign false&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Result&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;account.Fax = {!account.Fax}&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;account.Id = {!account.Id}&lt;/span&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_6468ea004f615f158ce346366b43e744_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
+&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <description>Pharos Flow Template for Log After: Create Account</description>
+        <name>h_7ccbb102f1bdacbaff2b3c10dceed3af_Pharos_Template</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>&lt;p&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;CREATE RECORDS: &lt;/span&gt;Create Account&lt;br&gt;
+&lt;span&gt;Create null record(s) with these field values:&lt;/span&gt;&lt;br&gt;
+
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Result&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;Create_Account ({!Create_Account})&lt;/span&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_2fc4474888e0f0ea0a20df19a79c26eb_PostLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
+&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <description>Pharos Flow Template for Log After: Start, Before: Assignment Id</description>
+        <name>h_d0813efa856b4558e757f62cb60379e6_Pharos_Template</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;style&gt;
+span,a {
+ font-size: 16px;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;
+&lt;span&gt;&lt;img src=&quot;https://a.sfdcstatic.com/shared/images/c360-nav/mobile_logo.png&quot; alt=&quot;Salesforce logo&quot; width=&quot;40px&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size:x-large;font-weight:bold&quot;&gt;An Error Occurred with Your &quot;Flow #1 Error&quot; Flow&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;You&apos;ve received this email because an error occurred while your &quot;Flow #1 Error&quot; flow was running. &lt;a &gt;Debug this flow in Flow Builder.&lt;/a&gt;&lt;br&gt;&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;Error element debug (FlowActionCall).&lt;/span&gt;&lt;br&gt;&lt;span&gt;Debug: end&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;a style=&quot;background-color:#0176D3;border-radius:4px;color:white;padding:.5rem 1rem;text-decoration:none&quot;&gt;Open Flow&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;br&gt;&lt;span style=&quot;font-size:x-large;font-weight:bold&quot;&gt;Flow Error Details&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+&lt;p&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Flow Details&lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Flow API Name: &lt;/span&gt;Flow_1_Error&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Type: &lt;/span&gt;Flow&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Version: &lt;/span&gt;3&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Status: &lt;/span&gt;Active&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Org: &lt;/span&gt;{!$Organization.Id} ({!$Organization.Name})&lt;/span&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;br&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Flow Interview Details&lt;/span&gt;&lt;br&gt;
+&lt;br&gt;&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Interview Label: &lt;/span&gt;Flow #1 Error&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Interview GUID: &lt;/span&gt;{!$Flow.InterviewGuid}&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Current User: &lt;/span&gt;{!$User.FirstName} {!$User.LastName}&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Start time: &lt;/span&gt;{!$Flow.InterviewStartTime}&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Duration: &lt;/span&gt;0&lt;/span&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;br&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;How the Interview Started&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;{!$User.FirstName} {!$User.LastName} ({!$User.Id}) started the flow interview.&lt;/span&gt;&lt;br&gt;
+&lt;span&gt;API Version for Running the Flow: 63.0&lt;/span&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;(APEX): &lt;/span&gt;h_3856076a2591b578c8f0a72b17aabbd8_PostPreLog&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Inputs:&lt;/span&gt;&lt;br&gt;
+&lt;span style=&quot;font-weight:bold;&quot;&gt;Outputs:&lt;/span&gt;&lt;br&gt;
+&lt;/p&gt;</text>
+    </textTemplates>
+    <variables>
+        <name>account</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Account</objectType>
+    </variables>
+    <variables>
+        <description>Pharos Full Stacktrace</description>
+        <name>Pharos_Full_Stacktrace</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue> </stringValue>
+        </value>
+    </variables>
+</Flow>
